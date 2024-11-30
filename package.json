@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "update-images": "python scripts/update-images.py"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^12.0.0",
