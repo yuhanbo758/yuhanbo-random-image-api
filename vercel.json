@@ -1,12 +1,9 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/api/random"
-    }
+  "builds": [
+    { "src": "pages/api/random.js", "use": "@vercel/node" }
   ],
-  "github": {
-    "silent": true
-  }
+  "routes": [
+    { "src": "/api/random", "dest": "/pages/api/random.js" }
+  ]
 } 
